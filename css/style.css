@@ -68,13 +68,13 @@ p {
 
 /* btn style start */
 .small-btn {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .small-btn a,
 .pro-add-cart a {
   background: #0438a1 none repeat scroll 0 0;
-  border-radius: 5px;
+
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
@@ -85,8 +85,9 @@ p {
 }
 
 .small-btn a:hover {
-  background: #027ad1 none repeat scroll 0 0;
-  color: #fff;
+  color: #0438a1;
+  background-color: #fff;
+  border: 1px solid #0438a1;
 }
 
 /* btn style end */
@@ -128,128 +129,39 @@ p {
   background-size: cover;
 }
 
-/*----------------------------------------*/
-/* 2. Newsletter Popup CSS
-/*----------------------------------------*/
-
-.popup_wrapper {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-  height: 100%;
-  opacity: 0;
-  position: fixed;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-  visibility: hidden;
-  width: 100%;
-  z-index: 9999999;
-}
-
-.test {
-  background: #ffffff none repeat scroll 0 0;
-  bottom: 0;
-  height: 390px;
-  left: 0;
-  margin: auto;
-  max-width: 790px;
-  padding: 25px 50px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.popup_off {
-  background: #666666 none repeat scroll 0 0;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  cursor: pointer;
-  display: block;
-  font-size: 11px;
-  font-weight: 500;
-  height: 25px;
-  line-height: 25px;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  text-decoration: none;
+.heading h6 {
+  position: relative;
   text-transform: uppercase;
-  top: -26px;
-  -webkit-transition: all 0.3s ease-in 0s;
-  transition: all 0.3s ease-in 0s;
-  width: 75px;
-}
-
-.popup_off:hover {
-  background: #1a1a1a none repeat scroll 0 0;
-}
-
-.subscribe-form-group {
-  margin-top: 15px;
-}
-
-.subscribe-form-group input {
-  background: #eaeaea none repeat scroll 0 0;
-  border: 0 none;
-  color: #333;
-  height: 40px;
-  padding: 0 15px;
-  width: 380px;
-}
-
-.subscribe-bottom label {
   font-size: 16px;
-  margin: 0;
-  vertical-align: middle;
+  color: #0084cc;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 9px;
+  letter-spacing: 2px;
 }
-
-.subscribe-bottom input {
-  vertical-align: middle;
+.heading h6::before {
+  position: absolute;
+  content: "";
+  background-color: #0084cc;
+  width: 100px;
+  height: 1px;
+  right: -110px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
-.subscribe-form-group button {
-  background: #0438a1 none repeat scroll 0 0;
-  border: 0 none;
-  color: #fff;
-  display: block;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 38px;
-  margin: 20px auto;
-  padding: 2px 20px 0;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.subscribe-form-group.subscribe-form-style-two button {
-  background: #61c0bf;
-}
-
-.subscribe-form-group.subscribe-form-style-three button {
-  background: #ffb400;
-}
-
-.subscribe-form-group.subscribe-form-style-four button {
-  background: #35a875;
-}
-
-.subscribe-form-group button:hover {
-  background: #303030 none repeat scroll 0 0;
-  color: #fff;
-}
-
-.subscribe_area h2 {
-  font-size: 35px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.subscribe_area p {
-  padding: 0 50px;
+.heading h2 {
+  font-size: 32px;
+  color: #1e272e;
 }
 
 /*----------------------------------------*/
-/* 3. Header CSS
+
+/*----------------------------------------*/
+/* 2. Header CSS
 /*----------------------------------------*/
 
 .header-top {
@@ -529,260 +441,8 @@ p {
   background: #ededed;
 }
 
-.cart-box > ul {
-  -moz-box-pack: end;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.cart-box > ul > li {
-  line-height: 1;
-}
-
-.cart-box span.ti-bag {
-  position: absolute;
-  left: 0;
-}
-
-.cart-box .total-pro {
-  background: #0438a1 none repeat scroll 0 0;
-  border-radius: 5px;
-  color: #f4f6ff;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 6px 20px 6px 60px;
-  position: relative;
-}
-
-.cart-box .total-pro::before {
-  content: "";
-  font-family: "themify";
-  font-size: 25px;
-  left: 20px;
-  position: absolute;
-  top: 15px;
-}
-
-.cart-box .total-pro:hover {
-  color: #fff;
-}
-
-.setting-box ul li a span {
-  color: #fff;
-  font-size: 20px;
-}
-
-.cart-box-width {
-  left: auto;
-  right: 0;
-  background: white;
-  -webkit-box-shadow: 0 3px 9.3px 0.7px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 3px 9.3px 0.7px rgba(0, 0, 0, 0.15);
-  padding: 0;
-  width: 290px;
-}
-
-.cart-box > ul > li > a > span {
-  font-size: 18px;
-  position: relative;
-}
-
-.cart-box > ul > li:not(:first-child) {
-  margin-left: 35px;
-}
-
-.cart-box > ul > li > a {
-  display: block;
-}
-
-.cart-text {
-  display: block;
-}
-
-.single-cart-box {
-  margin-bottom: 18px;
-  overflow: hidden;
-  position: relative;
-}
-
-.cart-img {
-  float: left;
-  padding-right: 10px;
-  position: relative;
-  width: 35%;
-}
-
-.cart-img img {
-  max-width: 100%;
-}
-
-.cart-content {
-  float: left;
-  padding: 0 15px 15px 0;
-  width: 65%;
-}
-
-.cart-content h6 a {
-  display: block;
-  font-size: 16px;
-  line-height: 20px;
-  overflow: hidden;
-  overflow-wrap: break-word;
-  text-overflow: ellipsis;
-  text-transform: capitalize;
-  white-space: nowrap;
-}
-
-.cart-content span {
-  display: block;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.cart-price {
-  margin: 5px 0;
-}
-
-.cart-actions a {
-  background: #2c2c2c none repeat scroll 0 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: white;
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 20px;
-}
-
-.cart-checkout {
-  background: #f26667 none repeat scroll 0 0;
-  color: #fff;
-}
-
-.cart-checkout:hover {
-  background-color: #0438a1;
-  border-color: transparent;
-  color: #fff;
-}
-
-.del-icone {
-  font-size: 12px;
-  position: absolute;
-  right: 0;
-  top: 3px;
-  z-index: 45;
-}
-
-.del-icone:hover,
-.cart-content h6 a:hover,
-.currency-selector ul li a:hover {
-  color: #0438a1;
-}
-
-.wish-list-item {
-  position: relative;
-  padding-right: 30px;
-  margin-right: 30px;
-}
-
-.cart-box-width {
-  padding: 25px 30px;
-}
-
-.cart-box > ul > li > a span + span.total-pro {
-  background: #fff none repeat scroll 0 0;
-  border-radius: 100%;
-  color: #343434;
-  font-size: 11px;
-  height: 18px;
-  left: 12px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 25px;
-  width: 18px;
-}
-
-.single-cart-box,
-.price-content {
-  border-bottom: 1px solid #ededed;
-  margin-bottom: 20px;
-}
-
-.price-content {
-  overflow: hidden;
-  padding-bottom: 20px;
-}
-
-.price-content li {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.price-content li span,
-.cart-content span.cart-price {
-  color: #0438a1;
-  float: right;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.cart-content span.cart-price {
-  float: none;
-}
-
-.pro-quantity {
-  background: #0438a1 none repeat scroll 0 0;
-  border-radius: 100%;
-  color: white;
-  font-size: 12px;
-  left: 5px;
-  line-height: 23px;
-  min-width: 25px;
-  padding: 2px 0 0;
-  position: absolute;
-  text-align: center;
-  top: 3px;
-}
-
-.currency-selector h3 {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-}
-
-.currency-selector > li:not(:last-child) {
-  border-bottom: 1px solid #ededed;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
-}
-
-.currency-selector ul li a {
-  display: block;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 5px 0;
-  text-transform: capitalize;
-}
-
-.currency-selector ul li a img {
-  margin-right: 5px;
-}
-
 /*----------------------------------------*/
-/* 4. Slider CSS
+/* 3. Slider CSS
 /*----------------------------------------*/
 
 .align-center-left {
@@ -1027,7 +687,7 @@ p {
 }
 
 /*------------------------------------------------*/
-/* 5. About Us CSS
+/* 4. About Us CSS
 /*------------------------------------------------*/
 
 .about-area .container {
@@ -1049,7 +709,7 @@ p {
 }
 .contentLeft .row .imgWrapper {
   width: 100%;
-  height: 450px;
+  height: 100%;
   overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
@@ -1063,7 +723,7 @@ p {
   transition: 0.3s ease;
 }
 .contentLeft .row .imgWrapper:hover img {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .contentRight .content {
@@ -1072,32 +732,41 @@ p {
   align-items: flex-start;
   gap: 15px;
 }
-.contentRight .content h4 {
-  font-size: 22px;
-  font-weight: 400;
-  color: #d35400;
+.contentRight .content h6 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #0084cc;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 9px;
+  letter-spacing: 2px;
+}
+.contentRight .content h6::before {
+  position: absolute;
+  content: "";
+  background-color: #0084cc;
+  width: 100px;
+  height: 1px;
+  right: -110px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .contentRight .content h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: #1e272e;
 }
 .contentRight .content p {
   font-size: 16px;
-  color: #343434;
-  line-height: 28px;
-  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #555;
 }
-.contentRight .content a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding: 13px 30px;
-  color: #fff;
-  background: #0438a1;
-  border-radius: 8px;
-  user-select: none;
-}
+
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
@@ -1117,7 +786,7 @@ p {
 }
 
 /*------------------------------------------------*/
-/* 6. All Products  CSS
+/* 5. All Products  CSS
 /*------------------------------------------------*/
 
 .single-ponno-product {
@@ -1385,6 +1054,40 @@ p {
 }
 
 /*----------------------------------------*/
+/* 6. Counter
+/*----------------------------------------*/
+
+.counter {
+  background: url(../images/counterbg.jpg) no-repeat center/cover;
+
+  position: relative;
+}
+.counter:before {
+  background: #0e192682 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.counter_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.counter_div h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.counter_div h1 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+/*----------------------------------------*/
 /* 7. Single Apple Watch CSS
 /*----------------------------------------*/
 
@@ -1592,509 +1295,138 @@ p {
 /* 9. Blog & Blog Details CSS
 /*----------------------------------------*/
 
-.blog-area .row [class*="col-"] {
-  margin-bottom: 40px;
+.post-slide {
+  background: #fff;
+  margin: 20px 15px 20px;
+  border-radius: 15px;
+  padding-top: 1px;
+  box-shadow: 0px 14px 22px -9px #bbcbd8;
 }
-
-.single-ponno-blog img {
+.post-slide .post-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: -12px 15px 8px 15px;
+  margin-left: -10px;
+}
+.post-slide .post-img img {
+  width: 100%;
+  height: auto;
+  transform: scale(1, 1);
+  transition: transform 0.2s linear;
+}
+.post-slide:hover .post-img img {
+  transform: scale(1.1, 1.1);
+}
+.post-slide .over-layer {
   width: 100%;
   height: 100%;
-}
-
-.single-ponno-blog .small-btn a {
-  border: 1px solid #232323;
-  border-radius: 25px;
-  color: #232323;
-  line-height: 38px;
-  margin-top: 25px;
-  padding: 0 25px;
-}
-
-.single-ponno-blog .small-btn a:hover {
-  color: #fff;
-  background: #0438a1;
-  border-color: #0438a1;
-}
-
-.blog-content {
-  padding-top: 20px;
-}
-
-.blog-left-sidebar-desc {
-  padding-left: 20px;
-}
-
-.blog-right-sidebar-desc {
-  padding-right: 20px;
-}
-
-.blog-img img {
-  width: 100%;
-}
-
-.blog-content h4 a {
-  color: #333;
-  display: block;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.meta-box {
-  margin: 15px 0 12px;
-}
-
-.meta-box li {
-  display: inline-block;
-}
-
-.meta-box li {
-  display: inline-block;
-  line-height: 25px;
-  margin-right: 20px;
-  text-transform: capitalize;
-}
-
-.meta-box li i {
-  margin-right: 5px;
-}
-
-.meta-box li a {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 25px;
-  margin-right: 20px;
-  text-transform: capitalize;
-}
-
-.blog-content .small-btn {
-  margin-top: 30px;
-}
-
-.blog-content .small-btn a {
-  padding: 10px 25px;
-}
-
-.meta-box li a:hover,
-.blog-content h4 a:hover {
-  color: #0438a1;
-}
-
-.blog-brown-color .meta-box li a:hover,
-.blog-brown-color .blog-content h4 a:hover {
-  color: #ba9f74;
-}
-
-.blog-img,
-.blog-hero-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.single-ponno-blog .blog-img:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.entry-meta {
-  left: 10px;
-  line-height: 18px;
   position: absolute;
-  text-align: center;
-  top: 10px;
-  width: 55px;
-}
-
-.entry-meta .date {
-  background: #fff none repeat scroll 0 0;
-  padding: 12px 15px;
-  text-transform: uppercase;
-}
-
-.date span {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-}
-
-.date p {
-  display: block;
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-
-.ponnoi-blog .meta-box li a:hover,
-.ponnoi-blog .blog-content h4 a:hover {
-  color: #0438a1;
-}
-
-.pagination-blog {
-  text-align: center;
-}
-
-.pagination-blog li a {
-  background: #ffffff none repeat scroll 0 0;
-  border: 1px solid #e7e7e7;
-  color: #444;
-  display: block;
-  font-size: 16px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  width: 40px;
-}
-
-.pagination-blog li {
-  display: inline-block;
-  margin-right: 1px;
-}
-
-.pagination-blog li.active a,
-.pagination-blog li a:hover {
-  background: #0438a1 none repeat scroll 0 0;
-  color: #ffffff;
-  border-color: #0438a1;
-}
-
-.newsletter-box.blog-details-box form {
-  position: relative;
-}
-
-.newsletter-box.blog-details-box .subscribe {
-  background: #ffffff none repeat scroll 0 0;
-  border: 1px solid #ebebeb;
-  height: 47px;
-  line-height: 47px;
-  margin-top: 0;
-  padding: 11px 90px 10px 20px;
-  width: 100%;
-}
-
-.newsletter-box.blog-details-box .submit {
-  background: #292929 none repeat scroll 0 0;
-  border: medium none;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 600;
-  height: 47px;
-  line-height: 50px;
-  margin-top: 0;
-  padding: 0 15px;
-  position: absolute;
-  right: 0;
-  text-transform: uppercase;
   top: 0;
-  -webkit-transition: all 300ms ease 0s;
-  transition: all 300ms ease 0s;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(
+    -45deg,
+    rgba(6, 190, 244, 0.75) 0%,
+    rgba(45, 112, 253, 0.6) 100%
+  );
+  transition: all 0.5s linear;
 }
-
-.newsletter-box.blog-details-box .submit:hover {
-  background: #0438a1 none repeat scroll 0 0;
+.post-slide:hover .over-layer {
+  opacity: 1;
+  text-decoration: none;
 }
-
-/* blog details css */
-
-.blog-details {
-  padding-right: 20px;
-}
-
-.blog-details.blog-details-two {
-  padding-right: 0;
-  padding-left: 20px;
-}
-
-.submit-review .login-btn {
-  margin-bottom: 0;
-}
-
-.details-meta {
-  margin-bottom: 30px;
-}
-
-.meta-box.meta-blog {
-  border-bottom: 1px solid #ebebeb;
-  margin-bottom: 30px;
-  margin-top: 13px;
-  padding-bottom: 15px;
-}
-
-.blogquote.blockquote {
-  background: #f1f1f1 none repeat scroll 0 0;
-  margin: 40px 0;
-  padding: 45px;
-  border-left: 3px solid #0438a1;
-}
-
-.blogquote.blockquote p {
-  font-size: 18px;
-  line-height: 30px;
-  padding-bottom: 10px;
-}
-
-.blockquote-footer {
-  color: #222;
-  font-size: 100%;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-
-.blog-dtl-header {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: capitalize;
-}
-
-.tags-social {
-  border-bottom: 1px solid #ebebeb;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-}
-
-.t-list {
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.tags-social li a {
-  font-size: 16px;
-  margin-left: 5px;
-  text-transform: capitalize;
-}
-
-.tags-social li a:hover,
-.pagination li a:hover {
-  color: #0438a1;
-}
-
-.pagination li a {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1;
-  text-transform: capitalize;
-}
-
-.pagination li a i.fa-long-arrow-left {
-  margin-right: 5px;
-}
-
-.pagination li a i.fa-long-arrow-right {
-  margin-left: 5px;
-}
-
-.submit-review .form-group input,
-.submit-review textarea {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: currentcolor currentcolor #eee;
-  -o-border-image: none;
-  border-image: none;
-  border-radius: 0;
-  border-style: none none solid;
-  border-width: medium medium 1px;
-  color: #222;
-  padding-bottom: 20px;
-  padding-left: 0;
-  width: 100%;
-}
-
-.submit-review .form-group {
-  margin-bottom: 45px;
-}
-
-.submit-review textarea {
-  height: 150px;
-}
-
-.submit-review .form-group input:focus,
-.submit-review textarea:focus {
-  border-color: #0438a1;
-}
-
-.single-comment {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.comments-area .single-comment:not(:last-child) {
-  margin-bottom: 70px;
-}
-
-.reply-comment {
-  margin-left: 135px;
-}
-
-.author .single-comment {
-  background: #fafafa none repeat scroll 0 0;
-  margin-bottom: 0;
-  padding: 40px;
-}
-
-.comment-img {
-  margin-right: 20px;
-}
-
-.comment-desc h6 {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 0;
-  text-transform: capitalize;
-}
-
-.author h6 {
-  margin-bottom: 5px;
-}
-
-.comment-desc h6 a {
-  color: #323232;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.comment-title span {
-  display: inline-block;
-  font-size: 15px;
-  margin: 5px 0 4px;
-}
-
-.comment-reply a {
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.comment-reply a:hover,
-.comment-desc h6 a:hover {
-  color: #0438a1;
-}
-
-.sidebar-header {
-  border-bottom: 4px double #303030;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 22px;
-  margin-bottom: 35px;
-  padding-bottom: 10px;
-  text-transform: capitalize;
-}
-
-.categorie-list a::before {
-  content: "";
-  font-family: FontAwesome;
-  font-size: 13px;
-  padding-right: 5px;
-}
-
-.categorie-list li a {
-  background: #fff none repeat scroll 0 0;
-  font-weight: 500;
-  padding-right: 20px;
-  text-transform: capitalize;
-}
-
-.categorie-list li span {
-  background: #fff none repeat scroll 0 0;
-  float: right;
-  padding-left: 20px;
-}
-
-.categorie-list li:not(:last-child) {
-  margin-bottom: 12px;
-  padding-bottom: 12px;
-}
-
-.all-recent-post .single-recent-post:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.single-recent-post {
-  overflow: hidden;
-}
-
-.recent-img {
-  float: left;
-  margin-right: 15px;
-  width: 90px;
-}
-
-.recent-img img {
-  width: 100%;
-}
-
-.recent-desc {
-  overflow: hidden;
-}
-
-.recent-desc span {
-  display: inline-block;
-  font-size: 15px;
-}
-
-.recent-desc h6 a {
+.post-slide .over-layer i {
+  position: relative;
+  top: 45%;
+  text-align: center;
   display: block;
-  font-size: 16px;
-  margin-bottom: 5px;
-  text-transform: capitalize;
-  line-height: 22px;
-}
-
-.recent-desc h6 a:hover,
-.categorie-list li a:hover {
-  color: #0438a1;
-}
-
-.tag-list {
-  margin: 0 -6px;
-}
-
-.tag-list li a {
-  background-color: #232323;
-  border: 1px solid #efefef;
   color: #fff;
+  font-size: 25px;
+}
+.post-slide .post-content {
+  background: #fff;
+  padding: 2px 20px 40px;
+  border-radius: 15px;
+}
+.post-slide .post-title a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
   display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover {
+  text-decoration: none;
+  color: #3498db;
+}
+.post-slide .post-description {
+  line-height: 24px;
+  color: #808080;
+  margin-bottom: 25px;
+}
+.post-slide .post-date {
+  color: #a9a9a9;
   font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 0 6px 10px;
-  padding: 8px 20px;
+}
+.post-slide .post-date i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #cfdace;
+}
+.post-slide .read-more {
+  padding: 7px 20px;
+  float: right;
+  font-size: 12px;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 10px 20px -10px #1376c5;
+  border-radius: 25px;
   text-transform: uppercase;
 }
-
-.tag-list li a:hover {
-  background: #0438a1;
+.post-slide .read-more:hover {
+  background: #3498db;
+  text-decoration: none;
+  color: #fff;
 }
-
-/*----------------------------------------*/
-/* 10. Breadcrumb CSS
-/*----------------------------------------*/
-
-.breadcrumb-area {
-  background: #efefef none repeat scroll 0 0;
-  padding: 20px 0;
+.owl-controls .owl-buttons {
+  text-align: center;
+  margin-top: 20px;
 }
-
-.breadcrumb-area .breadcrumb {
-  background-color: transparent;
-  border-radius: 0;
-  list-style: outside none none;
-  margin-bottom: 0;
-  padding: 0;
+.owl-controls .owl-buttons .owl-prev {
+  background: #fff;
+  position: absolute;
+  top: -13%;
+  left: 15px;
+  padding: 0 18px 0 15px;
+  border-radius: 50px;
+  box-shadow: 3px 14px 25px -10px #92b4d0;
+  transition: 0.5s ease 0s;
 }
-
-.breadcrumb-item a,
-.breadcrumb-item {
-  text-transform: capitalize;
+.owl-controls .owl-buttons .owl-next {
+  background: #fff;
+  position: absolute;
+  top: -13%;
+  right: 15px;
+  padding: 0 15px 0 18px;
+  border-radius: 50px;
+  box-shadow: -3px 14px 25px -10px #92b4d0;
+  transition: 0.5s ease 0s;
 }
-
-.breadcrumb-item a:hover,
-.breadcrumb-item.active {
-  color: #0438a1;
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after {
+  content: "\f104";
+  color: #333;
+  font-size: 30px;
+}
+.owl-controls .owl-buttons .owl-next:after {
+  content: "\f105";
+}
+@media only screen and (max-width: 1280px) {
+  .post-slide .post-content {
+    padding: 0px 15px 25px 15px;
+  }
 }
 
 /*----------------------------------------*/
@@ -4644,3 +3976,5 @@ p {
 .single-banner-content {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
 }
+
+/* news */
