@@ -3,10 +3,10 @@
   content: attr(data-menu);
   font-size: 18px;
   font-weight: 600;
-  left: 0;
+  right: 50px;
   position: absolute;
   text-transform: uppercase;
-  top: -38px;
+  top: -32px;
   z-index: 5;
 }
 a.meanmenu-reveal {
@@ -35,14 +35,14 @@ a.meanmenu-reveal {
   font-size: 1px;
   font-weight: 700;
   height: auto;
-  left: 55px !important;
+  right: 10px !important;
   line-height: 22px;
   padding: 0;
   position: absolute;
   right: auto;
   text-decoration: none;
-  text-indent: -9999em;
-  top: -37px;
+
+  top: -32px;
   width: 25px;
 }
 .mean-container a.meanmenu-reveal span {
@@ -62,7 +62,6 @@ a.meanmenu-reveal {
   margin: 0;
   width: 100%;
   list-style-type: none;
-  max-height: 255px;
   overflow-y: auto;
 }
 
