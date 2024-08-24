@@ -1524,6 +1524,283 @@ p {
 .blogs .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 32px;
 }
+
+.blog-area .row [class*="col-"] {
+  margin-bottom: 40px;
+}
+
+.single-ponno-blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-ponno-blog .small-btn a {
+  border: 1px solid #232323;
+  border-radius: 25px;
+  color: #232323;
+  line-height: 38px;
+  margin-top: 25px;
+  padding: 0 25px;
+}
+
+.single-ponno-blog .small-btn a:hover {
+  color: #fff;
+  background: #0438a1;
+  border-color: #0438a1;
+}
+
+.blog-content {
+  padding-top: 20px;
+}
+
+.blog-left-sidebar-desc {
+  padding-left: 20px;
+}
+
+.blog-right-sidebar-desc {
+  padding-right: 20px;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-content h4 a {
+  color: #333;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.meta-box {
+  margin: 15px 0 12px;
+}
+
+.meta-box li {
+  display: inline-block;
+}
+
+.meta-box li {
+  display: inline-block;
+  line-height: 25px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+.meta-box li i {
+  margin-right: 5px;
+}
+
+.meta-box li a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 25px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+.blog-content .small-btn {
+  margin-top: 30px;
+}
+
+.blog-content .small-btn a {
+  padding: 10px 25px;
+}
+
+.meta-box li a:hover,
+.blog-content h4 a:hover {
+  color: #0438a1;
+}
+
+.blog-brown-color .meta-box li a:hover,
+.blog-brown-color .blog-content h4 a:hover {
+  color: #ba9f74;
+}
+
+.blog-img,
+.blog-hero-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.single-ponno-blog .blog-img:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.entry-meta {
+  left: 10px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 55px;
+}
+
+.entry-meta .date {
+  background: #fff none repeat scroll 0 0;
+  padding: 12px 15px;
+  text-transform: uppercase;
+}
+
+.date span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.date p {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.ponnoi-blog .meta-box li a:hover,
+.ponnoi-blog .blog-content h4 a:hover {
+  color: #0438a1;
+}
+
+.pagination-blog {
+  text-align: center;
+}
+
+.pagination-blog li a {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #e7e7e7;
+  color: #444;
+  display: block;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 40px;
+}
+
+.pagination-blog li {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.pagination-blog li.active a,
+.pagination-blog li a:hover {
+  background: #0438a1 none repeat scroll 0 0;
+  color: #ffffff;
+  border-color: #0438a1;
+}
+
+.newsletter-box.blog-details-box form {
+  position: relative;
+}
+
+.newsletter-box.blog-details-box .subscribe {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ebebeb;
+  height: 47px;
+  line-height: 47px;
+  margin-top: 0;
+  padding: 11px 90px 10px 20px;
+  width: 100%;
+}
+
+.newsletter-box.blog-details-box .submit {
+  background: #292929 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  height: 47px;
+  line-height: 50px;
+  margin-top: 0;
+  padding: 0 15px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+}
+
+.newsletter-box.blog-details-box .submit:hover {
+  background: #0438a1 none repeat scroll 0 0;
+}
+
+/* blog details css */
+
+.blog-details {
+  padding-right: 20px;
+}
+
+.blog-details.blog-details-two {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.submit-review .login-btn {
+  margin-bottom: 0;
+}
+
+.details-meta {
+  margin-bottom: 30px;
+}
+
+.meta-box.meta-blog {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 30px;
+  margin-top: 13px;
+  padding-bottom: 15px;
+}
+
+.blogquote.blockquote {
+  background: #f1f1f1 none repeat scroll 0 0;
+  margin: 40px 0;
+  padding: 45px;
+  border-left: 3px solid #0438a1;
+}
+
+.blogquote.blockquote p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.blockquote-footer {
+  color: #222;
+  font-size: 100%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.blog-dtl-header {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.tags-social {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.t-list {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.tags-social li a {
+  font-size: 16px;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.tags-social li a:hover,
+.pagination li a:hover {
+  color: #0438a1;
+}
 /*----------------------------------------*/
 /* 11. Shop Page CSS
 ----------------------------------------*/
@@ -1871,6 +2148,8 @@ p {
   position: static;
   visibility: visible;
 }
+
+
 
 #list-view .single-ponno-product .sticker-new,
 #list-view .single-ponno-product .sticker-sale {
