@@ -377,27 +377,19 @@
 
     $('.blogs__slider').owlCarousel({
         loop: true,
-        nav: true,
-        dots: false,
-        smartSpeed: 1500,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        margin: 30,
+        margin: 32,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 1,
-                autoplay: true,
-                smartSpeed: 500
+                items: 1
             },
-            480: {
+            600: {
                 items: 2
             },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            },
-            1200: {
+            1000: {
                 items: 3
             }
         }
@@ -409,7 +401,7 @@ $('.partner-slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
-    arrows: true,
+    arrows: false,
     dots: false,
     pauseOnHover: false,
     responsive: [{
